@@ -188,7 +188,16 @@ private:
     *********************************************/
    void getZoom_member()
    {
-      assertUnit(NOT_YET_IMPLEMENTED);
+      // setup
+      
+
+      // exercise
+      
+
+      // verify
+      
+
+      // teardown
    }
    
    /*********************************************

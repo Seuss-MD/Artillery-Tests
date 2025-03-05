@@ -41,6 +41,6 @@ void testRunner()
 
    TestAngle().run();
    TestAcceleration().run();
-   //TestPosition().run();
-   //TestVelocity().run();
+   TestPosition().run();
+   TestVelocity().run();
 }

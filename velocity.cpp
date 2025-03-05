@@ -15,13 +15,21 @@
 #include <cassert>
 
 /*********************************************
- * VELOCITY : ADD
+ * VELOCITY : ADDA
  *  v = v_0 + a t
  *********************************************/
 void Velocity::add(const Acceleration& acceleration, double time)
 {
    dx = dx + acceleration.getDDX() * time;
    dy = dy + acceleration.getDDY() * time;
+}
+/*********************************************
+ * VELOCITY : ADDV
+ *********************************************/
+void Velocity::addV(const Velocity& rhs) 
+{
+   addDX(rhs.getDX());
+   addDY(rhs.getDY());
 }
 
 

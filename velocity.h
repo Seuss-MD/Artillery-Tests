@@ -52,7 +52,7 @@ public:
    void addDX(double dx) { this->dx = this->dx + dx; }
    void addDY(double dy) { this->dy = this->dy + dy; }
    void add(const Acceleration& acceleration, double time);
-   void add(const Velocity & rhs) { }
+   void addV(const Velocity& rhs);
    void reverse() { this->dy = -dy; this->dx = -dx;}
 };
 
